@@ -7,11 +7,16 @@ Työkaluina on trendikkäät ja nopeat työkalut. EI JAVAA!
 
 Tarkoituksena on rakentaa uusittu järjestelmä seuraavilla palikoilla
 
-  DB			BACKEND (json-api)            FRONTEND
-MongoDB -------- Node.js -------------------   HTML5
-                 Mongoose                      Bootstrap 3
-			     Express4                      Angular.js
-			     OAuth2
+
+
+| DB                | BACKEND (json-api)            | FRONTEND    |
+| ----------------- | ----------------------------- | ----------- |
+| MongoDB           | Node.js                       | HTML5       |
+|                   | Mongoose                      | Bootstrap 3 |
+|                   | Express4                      | Angular.js  |
+|                   | OAuth2                        |             |
+
+
 
 
 Tärkeintä on:
