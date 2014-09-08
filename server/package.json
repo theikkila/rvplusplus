@@ -1,0 +1,20 @@
+{
+  "name": "rvplusplus-server",
+  "version": "0.0.0",
+  "description": "RVplusplus backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RV",
+    "ruokavälitys"
+  ],
+  "author": "Teemu Heikkilä <teemu.heikkila@pistoke.org>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "~3.8.15",
+    "express": "~4.8.8",
+    "body-parser": "~1.8.1"
+  }
+}
