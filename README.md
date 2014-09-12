@@ -3,6 +3,8 @@ rvplusplus
 
 TKO-älyn ruokavälityksen seuraava iteraatio
 
+** RV++ client on siirretty toiseen repoon: [rvplusplus-client](https://github.com/theikkila/rvplusplus-client)
+
 Työkaluina on trendikkäät ja nopeat työkalut. EI JAVAA!
 
 Tarkoituksena on rakentaa uusittu järjestelmä seuraavilla palikoilla
@@ -37,3 +39,18 @@ Tuotteista mietittyä:
 	Tukkupakkaukselle omat abstraktit tuotteet joiden avulla saadaan lisättyä useampia tuotteita kerrralla
 	Tuotteiden on tuettava negatiivista veloitusta ostajalle (pullonpalautus)
 	Tuotteiden on tuettava tuotteita joiden määrä ei vähene koskaan.
+
+# Kuinka tätä ajetaan?
+
+```bash
+
+# Masennetaan riippuvuudet
+npm install
+
+# conffataan
+vim config.js
+
+# startataan
+node server.js
+
+```
