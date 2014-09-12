@@ -3,7 +3,7 @@ rvplusplus
 
 TKO-älyn ruokavälityksen seuraava iteraatio
 
-** RV++ client on siirretty toiseen repoon: [rvplusplus-client](https://github.com/theikkila/rvplusplus-client) **
+**RV++ client on siirretty toiseen repoon: [rvplusplus-client](https://github.com/theikkila/rvplusplus-client)**
 
 Työkaluina on trendikkäät ja nopeat työkalut. EI JAVAA!
 
