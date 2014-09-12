@@ -18,7 +18,8 @@ Tukkupakkaukset esim. lavallinen 0,5L muumilimua
 ## Metodit
 
 ### addProducts()
-** Palauttaa päivitetyn tuotteen **
+
+__Palauttaa päivitetyn tuotteen__
 
 Tämä metodi päivittää tukkupakkaukseen liittyvää tuotetta niin, että se lisää tukkupakkauksen sisältämien tuotteiden määrän tuotteeseen.
 
