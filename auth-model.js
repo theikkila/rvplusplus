@@ -23,7 +23,8 @@ module.exports = function (models) {
 			models.user.findOne({username:username}, function(err, user){
 				if(err){ cb(err); }
 				if(user.checkPassword(password, function(correct){
-					if(correct) return cb(null, user);
+					console.log(correct);
+					if(correct == true) return cb(null, user);
 					return cb(null);
 				}));
 			});

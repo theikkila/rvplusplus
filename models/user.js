@@ -17,7 +17,7 @@ var UserSchema = new Schema({
     email: {type: String, required: true},
     username: {type: String, required: true},
     HYusername: {type: String, required: true},
-    passwordHash: {type: String, required: true, default: "-"}
+    passwordHash: {type: String}
 });
 
 UserSchema.virtual('password')
