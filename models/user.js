@@ -38,7 +38,7 @@ UserSchema.virtual('password')
 
 UserSchema.methods.checkPassword = function (passwd, cb) {
     // Check if password is correct
-    bcrypt.compare(passwd, this.password, cb);
+    bcrypt.compare(passwd, this.passwordHash, cb);
 };
 
 module.exports = mongoose.model('User', UserSchema);
