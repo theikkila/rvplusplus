@@ -4,7 +4,7 @@
   "description": "RVplusplus backend",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "RV",
@@ -24,5 +24,10 @@
     "mongoose": "~3.8.15",
     "node-oauth2-server": "^2.2.2",
     "simple-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "superagent": "^0.18.2"
   }
 }
