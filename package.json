@@ -13,8 +13,12 @@
   "author": "Teemu Heikkilä <teemu.heikkila@pistoke.org>",
   "license": "MIT",
   "dependencies": {
+    "auto-loader": "^0.2.0",
+    "baucis": "^1.0.0-candidate.11",
+    "baucis-swagger": "git://github.com/DavidBoike/baucis-swagger",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.8.1",
+    "cors": "^2.4.2",
     "express": "~4.8.8",
     "mongoose": "~3.8.15"
   }

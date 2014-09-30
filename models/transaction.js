@@ -9,9 +9,9 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var TransactionSchema = new Schema({
-	type: String,
-	user: String,
-	amount: Number
+    type: String,
+    user: String,
+    amount: Number
 });
 
 module.exports = mongoose.model('Transaction', TransactionSchema);
