@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var config = require('../config');
 
 
-var host = 'http://localhost:3000';
+var host = config.app.protocol + '://' + config.app.host + ':' + config.app.port;
 
 mongoose.connect(config.db.path); // connect to our database
 
