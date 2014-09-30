@@ -25,15 +25,8 @@ UserSchema.virtual('password')
         return this.passwordHash;
     })
     .set(function (plaintext) {
-        var that = this;
-        bcrypt.genSalt(10, function (err, salt) {
-            if (err) { throw err; }
-            bcrypt.hash(plaintext, salt, function (err, hash) {
-                if (err) { throw err; }
-                // Store hash in models password-field
-                that.passwordHash = hash;
-            });
-        });
+        var salt = bcrypt.genSaltSync(10);
+        this.passwordHash = bcrypt.hashSync(plaintext, salt);
     });
 
 UserSchema.methods.checkPassword = function (passwd, cb) {

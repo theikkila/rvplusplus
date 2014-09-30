@@ -22,8 +22,8 @@ module.exports = function (models) {
 		getUser: function (username, password, cb) {
 			models.user.findOne({username:username}, function(err, user){
 				if(err){ cb(err); }
-				if(user.checkPassword(password, function(correct){
-					console.log(correct);
+				if(user.checkPassword(password, function(err, correct){
+					console.log("Check if correct:", correct);
 					if(correct == true) return cb(null, user);
 					return cb(null);
 				}));
