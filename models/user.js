@@ -17,7 +17,7 @@ var UserSchema = new Schema({
     email: {type: String, required: true},
     username: {type: String, required: true},
     HYusername: {type: String, required: true},
-    passwordHash: {type: String, required: true, default: "-"}
+    passwordHash: {type: String}
 });
 
 UserSchema.virtual('password')
@@ -38,7 +38,7 @@ UserSchema.virtual('password')
 
 UserSchema.methods.checkPassword = function (passwd, cb) {
     // Check if password is correct
-    bcrypt.compare(passwd, this.password, cb);
+    bcrypt.compare(passwd, this.passwordHash, cb);
 };
 
 module.exports = mongoose.model('User', UserSchema);
