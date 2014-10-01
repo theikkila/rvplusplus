@@ -9,6 +9,4 @@ services:
   - npm install -g mocha
 
  script:
-  - node server.js &
-  - sleep 3
-  - npm test
+  - node server.js & sleep 3; npm test
