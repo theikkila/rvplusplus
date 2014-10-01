@@ -7,6 +7,7 @@ module.exports = {
     app: {
         port: 4000,
         host: "localhost",
-        protocol: "http"
-    }
+        protocol: "http",
+    },
+    hostClient: false
 };

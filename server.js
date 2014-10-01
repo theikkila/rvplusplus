@@ -40,6 +40,9 @@ app.use(cors());
 var port = config.app.port || 3000;
 
 // ROUTES
+if(config.hostClient){
+	app.use(express.static(__dirname + '/dist'));
+}
 
 // Oauth
 app.all('/oauth/token', app.oauth.grant());
