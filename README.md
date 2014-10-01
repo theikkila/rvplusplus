@@ -18,7 +18,9 @@ Tarkoituksena on rakentaa uusittu järjestelmä seuraavilla palikoilla
 |                   | Express4                      | Angular.js  |
 |                   | OAuth2                        |             |
 
+## API
 
+Tämänhetkinen api on dokumentoitu [Swaggerin](http://swagger.io/) avulla ja on selattavissa */api/api-docs* osoitteessa Swagger-UI:n avulla.
 
 
 Tärkeintä on:
