@@ -8,5 +8,9 @@ services:
  before_install:
   - npm install -g mocha
 
+before_script:
+  - node server.js &
+  - sleep 3
+
  script:
-  - node server.js & sleep 3; npm test
+  - npm test
