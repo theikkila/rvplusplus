@@ -21,7 +21,7 @@ Tarkoituksena on rakentaa uusittu järjestelmä seuraavilla palikoilla
 
 ## API
 
-Tämänhetkinen api on dokumentoitu [Swaggerin](http://swagger.io/) avulla ja on selattavissa */api/api-docs* osoitteessa Swagger-UI:n avulla.
+Tämänhetkinen api on dokumentoitu [Swaggerin](http://swagger.io/) avulla ja on selattavissa [täällä](http://rvplusplus.eapp.fi/api-docs/)
 
 
 Tärkeintä on:
