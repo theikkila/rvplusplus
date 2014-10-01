@@ -2,15 +2,16 @@
  node_js:
    - "0.10"
 
-services:
-  - mongodb
+ services:
+   - mongodb
 
  before_install:
-  - npm install -g mocha
+   - npm install -g mocha
 
-before_script:
-  - node server.js &
-  - sleep 3
+ before_script:
+   - node server.js &
+   - sleep 5
+   - echo "Server running ----"
 
  script:
-  - npm test
+   - npm test
