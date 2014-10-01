@@ -14,6 +14,7 @@ var ProductSchema = new Schema({
     description: String,
     eanCodes: [String],
     count: {type: Number, required: true},
+    price: {type: Number, required: true, default: 0},
     flags: {
         unlimited: {type: Boolean, default: false}, // Product is unlimited, like coffee or can returns 
         cantbuy: {type: Boolean, default: false} // You can't buy this product, it is used for statistics purposes only (like coffee supplys)

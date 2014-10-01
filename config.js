@@ -5,7 +5,7 @@ module.exports = {
         path: 'mongodb://localhost/rvplusplus-dev'
     },
     app: {
-        port: 3000,
+        port: 4000,
         host: "localhost",
         protocol: "http"
     }
