@@ -2,6 +2,7 @@ rvplusplus
 ==========
 
 TKO-älyn ruokavälityksen seuraava iteraatio
+[![Build Status](https://travis-ci.org/theikkila/rvplusplus.svg?branch=master)](https://travis-ci.org/theikkila/rvplusplus)
 
 **RV++ client on siirretty toiseen repoon: [rvplusplus-client](https://github.com/theikkila/rvplusplus-client)**
 
